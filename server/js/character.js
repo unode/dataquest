@@ -5,7 +5,7 @@ var cls = require("./lib/class"),
     Properties = require("./properties"),
     Types = require("../../shared/js/gametypes");
 
-module.exports = Character = Entity.extend({
+module.exports = Character = QEntity.extend({
     init: function(id, type, kind, x, y) {
         this._super(id, type, kind, x, y);
         

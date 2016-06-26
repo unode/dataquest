@@ -3,7 +3,7 @@ var cls = require("./lib/class"),
     Messages = require('./message'),
     Utils = require('./utils');
 
-module.exports = Entity = cls.Class.extend({
+module.exports = QEntity = cls.Class.extend({
     init: function(id, type, kind, x, y) {
         this.id = parseInt(id);
         this.type = type;

@@ -1,5 +1,5 @@
 
-module.exports = Item = Entity.extend({
+module.exports = Item = QEntity.extend({
     init: function(id, kind, x, y) {
         this._super(id, "item", kind, x, y);
         this.isStatic = false;

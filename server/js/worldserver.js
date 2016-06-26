@@ -2,10 +2,10 @@
 var cls = require("./lib/class"),
     _ = require("underscore"),
     Log = require('log'),
-    Entity = require('./entity'),
+    QEntity = require('./entity'),
     Character = require('./character'),
     Mob = require('./mob'),
-    Map = require('./map'),
+    QMap = require('./map'),
     Npc = require('./npc'),
     Player = require('./player'),
     Item = require('./item'),
@@ -151,7 +151,7 @@ module.exports = World = cls.Class.extend({
     run: function(mapFilePath) {
         var self = this;
         
-        this.map = new Map(mapFilePath);
+        this.map = new QMap(mapFilePath);
 
         this.map.ready(function() {
             self.initZoneGroups();

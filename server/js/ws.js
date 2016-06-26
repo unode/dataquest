@@ -164,7 +164,7 @@ WS.socketIOConnection = Connection.extend({
 
         // HANDLE DISPATCHER IN HERE
         connection.on("dispatch", function (message) {
-            console.log("Received dispatch request")
+            log.info("Received dispatch request" + message)
             self._connection.emit("dispatched",  { "status" : "OK", host : server.host, port : server.port } )
         });
 
