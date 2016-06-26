@@ -31,6 +31,6 @@ define(['entity'], function(Entity) {
             return this.lootMessage;
         }
     });
-    
+
     return Item;
 });

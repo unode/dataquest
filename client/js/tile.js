@@ -1,6 +1,6 @@
 
 define(function() {
-    
+
     var Tile = Class.extend({
     });
 
@@ -13,7 +13,7 @@ define(function() {
         	this.index = index;
         	this.lastTime = 0;
         },
-    
+
         tick: function() {
             if((this.id - this.startId) < this.length - 1) {
     	        this.id += 1;
@@ -32,6 +32,6 @@ define(function() {
             }
         }
     });
-    
+
     return AnimatedTile;
 });
