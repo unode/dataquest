@@ -1,0 +1,42 @@
+DYING = BURNOUT - Instead of Revive display "Recover"
+
+Weapon has the following entries:
+    SWORD1      = Q-TIP
+    SWORD2      = SWAB
+    AXE         = PIPETTE
+    MORNINGSTAR = PASTEURPIPETTE
+    BLUESWORD   = MICROPIPETTE
+    REDSWORD    = ROBOTICARM
+    GOLDENSWORD = PHDSTUDENTARM
+
+Armor:
+    CLOTHARMOR   = T-SHIRT
+    LEATHERARMOR = LABCOAT
+    MAILARMOR    = GLOVES
+    PLATEARMOR   = GOGGLES
+    REDARMOR     = APRON
+    GOLDENARMOR  = COVERALL
+    
+    FIREFOX      = BIOSUIT (biohazard)
+
+
+RICK (for the Rickroll achievement) = ANDRES (the IT living in the labyrinth of cluster nodes)
+GUARD = TIMESHEET master
+KING = PEER
+PRIEST = ??
+BEACHNPC = SHINI (
+BEACHNPC2 = MENDE (Hawai is all about SpecI(link)es classification)
+CODER = RENATO
+VILLAGEGIRL = ECE
+VILLAGER = 
+AGENT = MATT (Do not try to bend the oral-gut axis. There is no oral-gut axis.)
+
+
+To remove:
+  OCTOCAT
+
+To replace:
+  Achievements - Tomb Raider - Find graveyard
+  Achievements - Skull collector - Kill 10 skeletons
+
+TODO: link-to-replace-nyan-cat (url pointing to the upsilon nyan)
