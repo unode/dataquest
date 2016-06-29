@@ -171,31 +171,31 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
             this.achievements = {
                 A_TRUE_WARRIOR: {
                     id: 1,
-                    name: "A True Warrior",
-                    desc: "Find a new weapon"
+                    name: "True Scientist",
+                    desc: "Find a new sampling item"
                 },
                 INTO_THE_WILD: {
                     id: 2,
-                    name: "Into the Wild",
-                    desc: "Venture outside the village"
+                    name: "Intro the Wild",
+                    desc: "Venture out of your comfort zone"
                 },
                 ANGRY_RATS: {
                     id: 3,
                     name: "Angry Rats",
-                    desc: "Kill 10 rats",
+                    desc: "Sample 10 rats",
                     isCompleted: function() {
                         return self.storage.getRatCount() >= 10;
                     }
                 },
                 SMALL_TALK: {
                     id: 4,
-                    name: "Small Talk",
+                    name: "Beer Session",
                     desc: "Talk to a non-player character"
                 },
                 FAT_LOOT: {
                     id: 5,
-                    name: "Fat Loot",
-                    desc: "Get a new armor set"
+                    name: "Lab Loot",
+                    desc: "Get a new piece of labware"
                 },
                 UNDERGROUND: {
                     id: 6,
@@ -204,13 +204,13 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 },
                 AT_WORLDS_END: {
                     id: 7,
-                    name: "At World's End",
-                    desc: "Reach the south shore"
+                    name: "Small Paradise",
+                    desc: "Reach the ocean"
                 },
                 COWARD: {
                     id: 8,
-                    name: "Coward",
-                    desc: "Successfully escape an enemy"
+                    name: "Procrastinator",
+                    desc: "Successfully avoid sampling a creature"
                 },
                 TOMB_RAIDER: {
                     id: 9,
@@ -227,18 +227,18 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 },
                 NINJA_LOOT: {
                     id: 11,
-                    name: "Ninja Loot",
-                    desc: "Get hold of an item you didn't fight for"
+                    name: "Scooper",
+                    desc: "Get hold of something you didn't work for"
                 },
                 NO_MANS_LAND: {
                     id: 12,
-                    name: "No Man's Land",
-                    desc: "Travel through the desert"
+                    name: "No Paper's Land",
+                    desc: "Travel through the desert of no publications"
                 },
                 HUNTER: {
                     id: 13,
-                    name: "Hunter",
-                    desc: "Kill 50 enemies",
+                    name: "Sample Collector",
+                    desc: "Sample 50 creatures",
                     isCompleted: function() {
                         return self.storage.getTotalKills() >= 50;
                     }
@@ -246,23 +246,23 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 STILL_ALIVE: {
                     id: 14,
                     name: "Still Alive",
-                    desc: "Revive your character five times",
+                    desc: "Recover yourself five times",
                     isCompleted: function() {
                         return self.storage.getTotalRevives() >= 5;
                     }
                 },
                 MEATSHIELD: {
                     id: 15,
-                    name: "Meatshield",
-                    desc: "Take 5,000 points of damage",
+                    name: "Automaton",
+                    desc: "Spend 5,000 stamina points",
                     isCompleted: function() {
                         return self.storage.getTotalDamageTaken() >= 5000;
                     }
                 },
                 HOT_SPOT: {
                     id: 16,
-                    name: "Hot Spot",
-                    desc: "Enter the volcanic mountains"
+                    name: "Hot Topic",
+                    desc: "Enter volcanic mountains of Nature"
                 },
                 HERO: {
                     id: 17,
@@ -271,8 +271,8 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 },
                 FOXY: {
                     id: 18,
-                    name: "Foxy",
-                    desc: "Find the Firefox costume",
+                    name: "BioHazard",
+                    desc: "Find the biohazard protection suit",
                     hidden: true
                 },
                 FOR_SCIENCE: {
@@ -283,8 +283,8 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 },
                 RICKROLLD: {
                     id: 20,
-                    name: "Rickroll'd",
-                    desc: "Take some singing lessons",
+                    name: "Clustered",
+                    desc: "Server usage 101",
                     hidden: true
                 }
             };
@@ -410,8 +410,8 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 this.entities[entity.id] = entity;
                 this.registerEntityPosition(entity);
 
-                if(!(entity instanceof Item && entity.wasDropped)
-                && !(this.renderer.mobile || this.renderer.tablet)) {
+                if(!(entity instanceof Item && entity.wasDropped) &&
+                   !(this.renderer.mobile || this.renderer.tablet)) {
                     entity.fadeIn(this.currentTime);
                 }
 
@@ -649,9 +649,9 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                     self.initShadows();
                     self.initHurtSprites();
 
-                    if(!self.renderer.mobile
-                    && !self.renderer.tablet
-                    && self.renderer.upscaledRendering) {
+                    if(!self.renderer.mobile &&
+                       !self.renderer.tablet &&
+                       self.renderer.upscaledRendering) {
                         self.initSilhouettes();
                     }
 
@@ -1366,11 +1366,6 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                     if(kind === Types.Entities.RAT) {
                         self.storage.incrementRatCount();
                         self.tryUnlockingAchievement("ANGRY_RATS");
-                    }
-
-                    if(kind === Types.Entities.SKELETON || kind === Types.Entities.SKELETON2) {
-                        self.storage.incrementSkeletonCount();
-                        self.tryUnlockingAchievement("SKULL_COLLECTOR");
                     }
 
                     if(kind === Types.Entities.BOSS) {

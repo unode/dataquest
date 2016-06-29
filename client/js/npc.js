@@ -4,22 +4,22 @@ define(['character'], function(Character) {
     var NpcTalk = {
         "guard": [
             "Hello there",
-            "We don't need to see your identification",
-            "You are not the player we're looking for",
+            "We don't need to see your timesheet record",
+            "You are not the scientist we're looking for",
             "Move along, move along..."
         ],
 
         "king": [
-            "Hi, I'm the King",
+            "Hi, I'm the PI",
             "I run this place",
             "Like a boss",
             "I talk to people",
             "Like a boss",
-            "I wear a crown",
+            "I sit in the office",
             "Like a boss",
-            "I do nothing all day",
+            "I wear sandals",
             "Like a boss",
-            "Now leave me alone",
+            "Now go do something useful",
             "Like a boss"
         ],
 
@@ -35,33 +35,31 @@ define(['character'], function(Character) {
         "villager": [
             "Howdy stranger. Do you like poetry?",
             "Roses are red, violets are blue...",
-            "I like hunting rats, and so do you...",
-            "The rats are dead, now what to do?",
-            "To be honest, I have no clue.",
-            "Maybe the forest, could interest you...",
-            "or instead, cook a rat stew."
+            "I like sampling stool, and so do you...",
+            "The samples are crap, now what to do?",
+            "Bad data, no paper, I have no clue.",
+            "Maybe machine learning, could interest you...",
+            "for fame and glory, enterotypes too."
         ],
 
         "agent": [
-            "Do not try to bend the sword",
+            "Do not try to bend the oral-gut axis",
             "That's impossible",
             "Instead, only try to realize the truth...",
-            "There is no sword."
+            "There is no oral-gut axis."
         ],
 
         "rick": [
-            "We're no strangers to love",
-            "You know the rules and so do I",
-            "A full commitment's what I'm thinking of",
-            "You wouldn't get this from any other guy",
-            "I just wanna tell you how I'm feeling",
-            "Gotta make you understand",
-            "Never gonna give you up",
-            "Never gonna let you down",
-            "Never gonna run around and desert you",
-            "Never gonna make you cry",
-            "Never gonna say goodbye",
-            "Never gonna tell a lie and hurt you"
+            "Hi there stranger!",
+            "It's been a while since anyone visited!",
+            "Where is here you ask?",
+            "This is the IT support *room*.",
+            "And what was all that back there?",
+            "Well the cluster datacenter of course",
+            "Yeah we know it can be confusing",
+            "File a ticket next time",
+            "We'll help you find your way",
+            "And remember keep your processes under control"
         ],
 
         "scientist": [
@@ -75,23 +73,13 @@ define(['character'], function(Character) {
         ],
 
         "nyan": [
-            "nyan nyan nyan nyan nyan",
-            "nyan nyan nyan nyan nyan nyan nyan",
-            "nyan nyan nyan nyan nyan nyan",
-            "nyan nyan nyan nyan nyan nyan nyan nyan"
-        ],
-
-        "beachnpc": [
-            "lorem ipsum dolor sit amet",
-            "consectetur adipisicing elit, sed do eiusmod tempor"
+            "nyan nyan nyan yan nyan",
+            "nyan nyan yan nyan nyan yan nyan",
+            "nyan yan nyan nyan yan nyan",
+            'nyan nyan nyan <a target="_blank" href="http://link-to-replace-nyan-cat">nyan yan</a> nyan nyan'
         ],
 
         "forestnpc": [
-            "lorem ipsum dolor sit amet",
-            "consectetur adipisicing elit, sed do eiusmod tempor"
-        ],
-
-        "desertnpc": [
             "lorem ipsum dolor sit amet",
             "consectetur adipisicing elit, sed do eiusmod tempor"
         ],
@@ -105,13 +93,13 @@ define(['character'], function(Character) {
             "Oh, hello, young man.",
             "Wisdom is everything, so I'll share a few guidelines with you.",
             "You are free to go wherever you like in this world",
-            "but beware of the many foes that await you.",
-            "You can find many weapons and armors by killing enemies.",
-            "The tougher the enemy, the higher the potential rewards.",
-            "You can also unlock achievements by exploring and hunting.",
+            "but beware of the many challenges that await you.",
+            "You can find many kinds of labware while sampling creatures.",
+            "The tougher the creature, the higher the potential.",
+            "You can also unlock achievements by travelling and networking.",
             "Click on the small cup icon to see a list of all the achievements.",
-            "Please stay a while and enjoy the many surprises of BrowserQuest",
-            "Farewell, young friend."
+            "Please stay a while and enjoy the many surprises of DataQuest",
+            "Safe journey, young scientist."
         ],
 
         "sorcerer": [
@@ -122,9 +110,9 @@ define(['character'], function(Character) {
             "I understand. It's easy to get envious.",
             "I actually crafted it myself, using my mad wizard skills.",
             "But let me tell you one thing...",
-            "There are lots of items in this game.",
+            "There are lots of labware in this game.",
             "Some more powerful than others.",
-            "In order to find them, exploration is key.",
+            "In order to find it, exploration is key.",
             "Good luck."
         ],
 
@@ -135,7 +123,7 @@ define(['character'], function(Character) {
         ],
 
         "coder": [
-            "Hi! Do you know that you can also play BrowserQuest on your tablet or mobile?",
+            "Hi! Do you know that you can also play DataQuest on your tablet or mobile?",
             "That's the beauty of HTML5!",
             "Give it a try..."
         ],
@@ -143,16 +131,16 @@ define(['character'], function(Character) {
         "beachnpc": [
             "Don't mind me, I'm just here on vacation.",
             "I have to say...",
-            "These giant crabs are somewhat annoying.",
-            "Could you please get rid of them for me?"
+            "Hawaian beaches are the best.",
+            "Have you seen the classification of these SpecI'es?"
         ],
 
         "desertnpc": [
             "One does not simply walk into these mountains...",
-            "An ancient undead lord is said to dwell here.",
-            "Nobody knows exactly what he looks like...",
+            "An ancient dogma lord is said to dwell here.",
+            "Nobody knows exactly what it looks like...",
             "...for none has lived to tell the tale.",
-            "It's not too late to turn around and go home, kid."
+            "It's not too late to turn around and quit science!"
         ],
 
         "othernpc": [
