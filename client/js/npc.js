@@ -17,7 +17,7 @@ define(['character'], function(Character) {
             "Like a boss",
             "I sit in the office",
             "Like a boss",
-            "I wear sandals",
+            "I wear sandals with socks",
             "Like a boss",
             "Now go do something useful",
             "Like a boss"
