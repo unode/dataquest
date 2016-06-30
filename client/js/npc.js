@@ -43,10 +43,10 @@ define(['character'], function(Character) {
         ],
 
         "agent": [
-            "Do not try to bend the oral-gut axis",
+            "Do not try to bend enterotypes dimensions",
             "That's impossible",
             "Instead, only try to realize the truth...",
-            "There is no oral-gut axis."
+            "There are no enterotypes."
         ],
 
         "rick": [
