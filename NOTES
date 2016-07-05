@@ -16,7 +16,7 @@ Armor:
     PLATEARMOR   = GOGGLES
     REDARMOR     = APRON
     GOLDENARMOR  = COVERALL
-    
+
     FIREFOX      = BIOSUIT (biohazard)
 
 
@@ -40,3 +40,4 @@ To replace:
   Achievements - Skull collector - Kill 10 skeletons
 
 TODO: link-to-replace-nyan-cat (url pointing to the upsilon nyan)
+      Question on "Do you really wish to Borkxit?" when http://stackoverflow.com/a/1632004
