@@ -176,7 +176,7 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 },
                 INTO_THE_WILD: {
                     id: 2,
-                    name: "Intro the Wild",
+                    name: "Baby steps",
                     desc: "Venture out of your comfort zone"
                 },
                 ANGRY_RATS: {
@@ -190,7 +190,7 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 SMALL_TALK: {
                     id: 4,
                     name: "Beer Session",
-                    desc: "Talk to a non-player character"
+                    desc: "Talk to another scientist"
                 },
                 FAT_LOOT: {
                     id: 5,
@@ -232,12 +232,12 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 },
                 NO_MANS_LAND: {
                     id: 12,
-                    name: "No Paper's Land",
+                    name: "No Papers' Land",
                     desc: "Travel through the desert of no publications"
                 },
                 HUNTER: {
                     id: 13,
-                    name: "Sample Collector",
+                    name: "Lab Technician",
                     desc: "Sample 50 creatures",
                     isCompleted: function() {
                         return self.storage.getTotalKills() >= 50;
@@ -271,14 +271,14 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 },
                 FOXY: {
                     id: 18,
-                    name: "BioHazard",
-                    desc: "Find the biohazard protection suit",
+                    name: "Party hard!",
+                    desc: "Discover the power of beer!",
                     hidden: true
                 },
                 FOR_SCIENCE: {
                     id: 19,
                     name: "For Science",
-                    desc: "Enter into a portal",
+                    desc: "Quantum leap into a portal",
                     hidden: true
                 },
                 RICKROLLD: {
