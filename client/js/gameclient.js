@@ -68,9 +68,9 @@ define(['player', 'entityfactory', 'lib/bison'], function(Player, EntityFactory,
                     if(reply.status === 'OK') {
                         self.dispatched_callback(reply.host, reply.port);
                     } else if(reply.status === 'FULL') {
-                        console.log("BrowserQuest is currently at maximum player population. Please retry later.");
+                        console.log("DataQuest is currently too crowded. Please retry later.");
                     } else {
-                        console.log("Unknown error while connecting to BrowserQuest.");
+                        console.log("Unknown error while connecting to DataQuest.");
                     }
                 });
 
