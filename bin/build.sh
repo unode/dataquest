@@ -36,7 +36,8 @@ find $BUILDDIR/js -type f -not \( \
     -name "world_client.js" -o\
     -name "underscore.min.js" -o\
     -name "css3-mediaqueries.js" -o\
-    -name "text.js" \
+    -name "text.js" -o\
+    -name "socket.io-1.3.5.js" \
     \) -print -delete | sort
 
 echo "Removing sprites directory"
