@@ -218,16 +218,16 @@ define(['jquery', 'app'], function($, App) {
 
     		    $("#instance-population").find("span").text(worldPlayers);
     		    if(worldPlayers == 1) {
-    		        setWorldPlayersString("player");
+    		        setWorldPlayersString("scientist");
     		    } else {
-    		        setWorldPlayersString("players");
+    		        setWorldPlayersString("scientists");
     		    }
 
     		    $("#world-population").find("span").text(totalPlayers);
     		    if(totalPlayers == 1) {
-    		        setTotalPlayersString("player");
+    		        setTotalPlayersString("scientist");
     		    } else {
-    		        setTotalPlayersString("players");
+    		        setTotalPlayersString("scientists");
     		    }
     		});
 
