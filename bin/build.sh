@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Any failure is fatal
+set -e
+
 # Script to generate an optimized client build of BrowserQuest
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
