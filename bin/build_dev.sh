@@ -13,12 +13,12 @@ PROJECTDIR="../client/js"
 CURDIR=$(pwd)
 
 
-echo "Deleting previous build directory"
+echo "Deleting previous build directory contents"
 rm -rf $BUILDDIR/*
 
 echo "Building client with RequireJS"
 cd $PROJECTDIR
-node ../../bin/r.js -o build.js
+node ../../bin/r.js -o build-dev.js
 cd $CURDIR
 
 echo "Removing unnecessary js files from the build directory"

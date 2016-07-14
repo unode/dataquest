@@ -12,7 +12,7 @@ MONITORDIR="$(dirname $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd ))"
 
 while inotifywait -r -e modify -e move -e create -e delete $MONITORDIR/client/ >/dev/null 2>&1; do
     echo $line
-    $MONITORDIR/bin/build.sh
+    $MONITORDIR/bin/build_dev.sh
 done
 
 # vi: 
