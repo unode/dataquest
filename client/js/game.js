@@ -1351,12 +1351,12 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                     }
 
                     if(mobName === 'boss') {
-                        self.showNotification("You killed the skeleton king");
+                        self.showNotification("You sampled the skeleton king");
                     } else {
                         if(_.include(['a', 'e', 'i', 'o', 'u'], mobName[0])) {
-                            self.showNotification("You killed an " + mobName);
+                            self.showNotification("You sampled an " + mobName);
                         } else {
-                            self.showNotification("You killed a " + mobName);
+                            self.showNotification("You sampled a " + mobName);
                         }
                     }
 
