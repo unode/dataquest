@@ -14,7 +14,7 @@ CURDIR=$(pwd)
 
 
 echo "Deleting previous build directory"
-rm -rf $BUILDDIR
+rm -rf $BUILDDIR/*
 
 echo "Building client with RequireJS"
 cd $PROJECTDIR
