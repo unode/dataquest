@@ -22,7 +22,7 @@ define(function() {
                 achievements: {
                     unlocked: [],
                     ratCount: 0,
-                    skeletonCount: 0,
+                    eyeCount: 0,
                     totalKills: 0,
                     totalDmg: 0,
                     totalRevives: 0
@@ -115,14 +115,14 @@ define(function() {
             }
         },
 
-        // Skull Collector
-        getSkeletonCount: function() {
-            return this.data.achievements.skeletonCount;
+        // Eye Collector
+        getEyeCount: function() {
+            return this.data.achievements.eyeCount;
         },
 
-        incrementSkeletonCount: function() {
-            if(this.data.achievements.skeletonCount < 10) {
-                this.data.achievements.skeletonCount++;
+        incrementEyeCount: function() {
+            if(this.data.achievements.eyeCount < 10) {
+                this.data.achievements.eyeCount++;
                 this.save();
             }
         },

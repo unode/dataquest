@@ -51,11 +51,11 @@ define(['mob', 'timer'], function(Mob, Timer) {
             init: function(id) {
                 this._super(id, Types.Entities.DEATHKNIGHT);
                 this.atkSpeed = 50;
-        		this.moveSpeed = 220;
-        		this.walkSpeed = 100;
-        		this.idleSpeed = 450;
-        		this.setAttackRate(800);
-        		this.aggroRange = 3;
+        	this.moveSpeed = 220;
+        	this.walkSpeed = 100;
+        	this.idleSpeed = 450;
+        	this.setAttackRate(800);
+        	this.aggroRange = 3;
             },
 
             idle: function(orientation) {
@@ -143,7 +143,7 @@ define(['mob', 'timer'], function(Mob, Timer) {
                 this.idleSpeed = 400;
                 this.atkRate = 2000;
                 this.attackCooldown = new Timer(this.atkRate);
-        		this.aggroRange = 3;
+       		this.aggroRange = 3;
             },
 
             idle: function(orientation) {

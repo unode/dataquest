@@ -194,18 +194,18 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 },
                 FAT_LOOT: {
                     id: 5,
-                    name: "Lab Loot",
-                    desc: "Get a new piece of labware"
+                    name: "LabWare",
+                    desc: "Get new lab protection gear"
                 },
                 UNDERGROUND: {
                     id: 6,
-                    name: "Underground",
-                    desc: "Explore at least one cave"
+                    name: "Seclusion",
+                    desc: "Thesis writing time"
                 },
                 AT_WORLDS_END: {
                     id: 7,
                     name: "Small Paradise",
-                    desc: "Reach the ocean"
+                    desc: "Holidays by the ocean"
                 },
                 COWARD: {
                     id: 8,
@@ -214,21 +214,21 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 },
                 TOMB_RAIDER: {
                     id: 9,
-                    name: "Tomb Raider",
-                    desc: "Find the graveyard"
+                    name: "History",
+                    desc: "Visit the valley of dead theories"
                 },
-                SKULL_COLLECTOR: {
+                EYE_COLLECTOR: {
                     id: 10,
-                    name: "Skull Collector",
-                    desc: "Kill 10 skeletons",
+                    name: "Peer Review",
+                    desc: "Sample 10 peeking eyes",
                     isCompleted: function() {
-                        return self.storage.getSkeletonCount() >= 10;
+                        return self.storage.getEyeCount() >= 10;
                     }
                 },
                 NINJA_LOOT: {
                     id: 11,
-                    name: "Scooper",
-                    desc: "Get hold of something you didn't work for"
+                    name: "Collaboration",
+                    desc: "Credit for something you didn't work for"
                 },
                 NO_MANS_LAND: {
                     id: 12,
@@ -266,8 +266,8 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 },
                 HERO: {
                     id: 17,
-                    name: "Hero",
-                    desc: "Defeat the final boss"
+                    name: "Graduation",
+                    desc: "You life as a researcher has just begun"
                 },
                 FOXY: {
                     id: 18,
@@ -1343,7 +1343,7 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                     }
 
                     if(mobName === 'eye') {
-                        mobName = 'evil eye';
+                        mobName = 'peeking eye';
                     }
 
                     if(mobName === 'deathknight') {
@@ -1366,6 +1366,11 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                     if(kind === Types.Entities.RAT) {
                         self.storage.incrementRatCount();
                         self.tryUnlockingAchievement("ANGRY_RATS");
+                    }
+
+                    if(kind === Types.Entities.EYE) {
+                        self.storage.incrementEyeCount();
+                        self.tryUnlockingAchievement("EYE_COLLECTOR");
                     }
 
                     if(kind === Types.Entities.BOSS) {
