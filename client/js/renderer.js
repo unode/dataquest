@@ -276,7 +276,11 @@ function(Camera, Item, Character, Player, Timer) {
 
             this.context.save();
             if(this.game.currentCursor && this.game.currentCursor.isLoaded) {
-                this.context.drawImage(this.game.currentCursor.image, 0, 0, 14 * os, 14 * os, mx, my, 14*s, 14*s);
+                if(this.game.currentCursorOrientation === "bottomleft") {
+                    this.context.drawImage(this.game.currentCursor.image, 0, 0, 14 * os, 14 * os, mx, my - 14*s, 14*s, 14*s);
+                } else {
+                    this.context.drawImage(this.game.currentCursor.image, 0, 0, 14 * os, 14 * os, mx, my, 14*s, 14*s);
+                }
             }
             this.context.restore();
         },

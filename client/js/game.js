@@ -378,7 +378,8 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
             }
 
             if(this.hoveringMob && this.started) {
-                this.setCursor("sword");
+                // bottomleft is passed because the icon's pointing end is bottom-left instead of the default top-left
+                this.setCursor("sword", "bottomleft");
                 this.hoveringTarget = false;
                 this.targetCellVisible = false;
             }
