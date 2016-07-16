@@ -90,7 +90,7 @@ define(['item'], function(Item) {
         Cake: Item.extend({
             init: function(id) {
                 this._super(id, Types.Entities.CAKE, "object");
-                this.lootMessage = "You eat a cake";
+                this.lootMessage = "You are one atom heavier";
             },
         }),
 
