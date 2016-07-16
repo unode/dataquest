@@ -101,60 +101,60 @@ Types = {
 };
 
 var kinds = {
-    warrior: [Types.Entities.WARRIOR, "player"],
+    warrior: [Types.Entities.WARRIOR, "player", "warrior"],
     
-    rat: [Types.Entities.RAT, "mob"],
-    skeleton: [Types.Entities.SKELETON , "mob"],
-    goblin: [Types.Entities.GOBLIN, "mob"],
-    ogre: [Types.Entities.OGRE, "mob"],
-    spectre: [Types.Entities.SPECTRE, "mob"],
-    deathknight: [Types.Entities.DEATHKNIGHT, "mob"],
-    crab: [Types.Entities.CRAB, "mob"],
-    snake: [Types.Entities.SNAKE, "mob"],
-    bat: [Types.Entities.BAT, "mob"],
-    wizard: [Types.Entities.WIZARD, "mob"],
-    eye: [Types.Entities.EYE, "mob"],
-    skeleton2: [Types.Entities.SKELETON2, "mob"],
-    boss: [Types.Entities.BOSS, "mob"],
+    rat: [Types.Entities.RAT, "mob", "rat"],
+    skeleton: [Types.Entities.SKELETON , "mob", "skeleton"],
+    goblin: [Types.Entities.GOBLIN, "mob", "goblin"],
+    ogre: [Types.Entities.OGRE, "mob", "ogre"],
+    spectre: [Types.Entities.SPECTRE, "mob", "spectre"],
+    deathknight: [Types.Entities.DEATHKNIGHT, "mob", "deathknight"],
+    crab: [Types.Entities.CRAB, "mob", "crab"],
+    snake: [Types.Entities.SNAKE, "mob", "snake"],
+    bat: [Types.Entities.BAT, "mob", "bat"],
+    wizard: [Types.Entities.WIZARD, "mob", "wizard"],
+    eye: [Types.Entities.EYE, "mob", "eye"],
+    skeleton2: [Types.Entities.SKELETON2, "mob", "skeleton2"],
+    boss: [Types.Entities.BOSS, "mob", "boss"],
 
-    sword1: [Types.Entities.SWORD1, "weapon"],
-    sword2: [Types.Entities.SWORD2, "weapon"],
-    axe: [Types.Entities.AXE, "weapon"],
-    redsword: [Types.Entities.REDSWORD, "weapon"],
-    bluesword: [Types.Entities.BLUESWORD, "weapon"],
-    goldensword: [Types.Entities.GOLDENSWORD, "weapon"],
-    morningstar: [Types.Entities.MORNINGSTAR, "weapon"],
+    sword1: [Types.Entities.SWORD1, "weapon", "sword1"],
+    sword2: [Types.Entities.SWORD2, "weapon", "sword2"],
+    axe: [Types.Entities.AXE, "weapon", "axe"],
+    redsword: [Types.Entities.REDSWORD, "weapon", "redsword"],
+    bluesword: [Types.Entities.BLUESWORD, "weapon", "bluesword"],
+    goldensword: [Types.Entities.GOLDENSWORD, "weapon", "goldensword"],
+    morningstar: [Types.Entities.MORNINGSTAR, "weapon", "morningstar"],
     
-    firefox: [Types.Entities.FIREFOX, "armor"],
-    clotharmor: [Types.Entities.CLOTHARMOR, "armor"],
-    leatherarmor: [Types.Entities.LEATHERARMOR, "armor"],
-    mailarmor: [Types.Entities.MAILARMOR, "armor"],
-    platearmor: [Types.Entities.PLATEARMOR, "armor"],
-    redarmor: [Types.Entities.REDARMOR, "armor"],
-    goldenarmor: [Types.Entities.GOLDENARMOR, "armor"],
+    firefox: [Types.Entities.FIREFOX, "armor", "firefox"],
+    clotharmor: [Types.Entities.CLOTHARMOR, "armor", "clotharmor"],
+    leatherarmor: [Types.Entities.LEATHERARMOR, "armor", "leatherarmor"],
+    mailarmor: [Types.Entities.MAILARMOR, "armor", "mailarmor"],
+    platearmor: [Types.Entities.PLATEARMOR, "armor", "platearmor"],
+    redarmor: [Types.Entities.REDARMOR, "armor", "redarmor"],
+    goldenarmor: [Types.Entities.GOLDENARMOR, "armor", "goldenarmor"],
 
-    flask: [Types.Entities.FLASK, "object"],
-    cake: [Types.Entities.CAKE, "object"],
-    burger: [Types.Entities.BURGER, "object"],
-    chest: [Types.Entities.CHEST, "object"],
-    firepotion: [Types.Entities.FIREPOTION, "object"],
+    flask: [Types.Entities.FLASK, "object", "flask"],
+    cake: [Types.Entities.CAKE, "object", "cake"],
+    burger: [Types.Entities.BURGER, "object", "burger"],
+    chest: [Types.Entities.CHEST, "object", "chest"],
+    firepotion: [Types.Entities.FIREPOTION, "object", "firepotion"],
 
-    guard: [Types.Entities.GUARD, "npc"],
-    villagegirl: [Types.Entities.VILLAGEGIRL, "npc"],
-    villager: [Types.Entities.VILLAGER, "npc"],
-    coder: [Types.Entities.CODER, "npc"],
-    scientist: [Types.Entities.SCIENTIST, "npc"],
-    priest: [Types.Entities.PRIEST, "npc"],
-    king: [Types.Entities.KING, "npc"],
-    rick: [Types.Entities.RICK, "npc"],
-    nyan: [Types.Entities.NYAN, "npc"],
-    sorcerer: [Types.Entities.SORCERER, "npc"],
-    agent: [Types.Entities.AGENT, "npc"],
-    octocat: [Types.Entities.OCTOCAT, "npc"],
-    beachnpc: [Types.Entities.BEACHNPC, "npc"],
-    forestnpc: [Types.Entities.FORESTNPC, "npc"],
-    desertnpc: [Types.Entities.DESERTNPC, "npc"],
-    lavanpc: [Types.Entities.LAVANPC, "npc"],
+    guard: [Types.Entities.GUARD, "npc", "guard"],
+    villagegirl: [Types.Entities.VILLAGEGIRL, "npc", "villagegirl"],
+    villager: [Types.Entities.VILLAGER, "npc", "villager"],
+    coder: [Types.Entities.CODER, "npc", "coder"],
+    scientist: [Types.Entities.SCIENTIST, "npc", "scientist"],
+    priest: [Types.Entities.PRIEST, "npc", "priest"],
+    king: [Types.Entities.KING, "npc", "king"],
+    rick: [Types.Entities.RICK, "npc", "rick"],
+    nyan: [Types.Entities.NYAN, "npc", "nyan"],
+    sorcerer: [Types.Entities.SORCERER, "npc", "sorcerer"],
+    agent: [Types.Entities.AGENT, "npc", "agent"],
+    octocat: [Types.Entities.OCTOCAT, "npc", "octocat"],
+    beachnpc: [Types.Entities.BEACHNPC, "npc", "beachnpc"],
+    forestnpc: [Types.Entities.FORESTNPC, "npc", "forestnpc"],
+    desertnpc: [Types.Entities.DESERTNPC, "npc", "desertnpc"],
+    lavanpc: [Types.Entities.LAVANPC, "npc", "lavanpc"],
     
     getType: function(kind) {
         return kinds[Types.getKindAsString(kind)][1];
@@ -247,6 +247,14 @@ Types.getKindAsString = function(kind) {
     for(var k in kinds) {
         if(kinds[k][0] === kind) {
             return k;
+        }
+    }
+};
+
+Types.getMobName = function(kind) {
+    for(var k in kinds) {
+        if(kinds[k][0] === kind) {
+            return kinds[k][2];
         }
     }
 };

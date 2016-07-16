@@ -1337,7 +1337,7 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 });
 
                 self.client.onPlayerKillMob(function(kind) {
-                    var mobName = Types.getKindAsString(kind);
+                    var mobName = Types.getMobName(kind);
 
                     if(mobName === 'skeleton2') {
                         mobName = 'greater skeleton';
