@@ -1,10 +1,10 @@
 DYING = BURNOUT - Instead of Revive display "Recover"
 
 Weapon has the following entries:
-    SWORD1      = Q-TIP
-    SWORD2      = SWAB
-    AXE         = PIPETTE
-    MORNINGSTAR = PASTEURPIPETTE
+    SWORD1      = STICK
+    SWORD2      = Q-TIP
+    AXE         = SWAB
+    MORNINGSTAR = PASTEUR (Pasteur pipette)
     BLUESWORD   = MICROPIPETTE
     REDSWORD    = ROBOTICARM
     GOLDENSWORD = PHDSTUDENTARM
@@ -15,7 +15,8 @@ Armor:
     MAILARMOR    = GLOVES
     PLATEARMOR   = GOGGLES
     REDARMOR     = APRON
-    GOLDENARMOR  = COVERALL
+    GOLDENARMOR  = Graduation cap
+    //GOLDENARMOR  = COVERALL
 
     FIREFOX      = BEER power!
 
