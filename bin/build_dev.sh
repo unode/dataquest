@@ -21,6 +21,10 @@ cd $PROJECTDIR
 node ../../bin/r.js -o build-dev.js
 cd $CURDIR
 
+echo "Generating high res images from low ones"
+./generate_higher_res.py
+echo
+
 echo "Removing unnecessary js files from the build directory"
 find $BUILDDIR/js -type f -not \( \
     -name "modernizr.js" -o\
