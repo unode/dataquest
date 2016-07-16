@@ -62,7 +62,7 @@ define(['item'], function(Item) {
         PlateArmor: Item.extend({
             init: function(id) {
                 this._super(id, Types.Entities.PLATEARMOR, "armor");
-                this.lootMessage = "You equip protection goggles";
+                this.lootMessage = "You equip goggles";
             },
         }),
 
@@ -76,7 +76,7 @@ define(['item'], function(Item) {
         GoldenArmor: Item.extend({
             init: function(id) {
                 this._super(id, Types.Entities.GOLDENARMOR, "armor");
-                this.lootMessage = "You equip coverall";
+                this.lootMessage = "You equip a graduation cap";
             },
         }),
 
