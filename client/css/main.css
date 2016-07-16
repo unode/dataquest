@@ -546,11 +546,10 @@ footer, header, hgroup, menu, nav, section {
         #guillaume, #franck, #renato {width:47%;line-height:36px;}
         #guillaume, #renato {float:left;text-align:right;}
         #franck {float:right;text-align:left;}
-        #renato {float:left;text-align:right;}
         .avatar {height:75px;width:39px;}
-        #guillaume .avatar, #renato .avatar {float:right;background-position:-1062px -303px;margin-left:60px;}
+        #guillaume .avatar {float:right;background-position:-1062px -303px;margin-left:60px;}
+        #renato .avatar {float:right;background-position:-1101px -693px;margin-left:60px;}
         #franck .avatar {float:left;background-position:-1101px -303px;margin-right:60px;}
-        #renato .avatar {float:right;background-position:-1101px -303px;margin-left:60px;}
         #seb {margin:150px auto 0 auto;width:54%;color:#373737;font-size:25px;}
         #seb a {color:#373737;text-decoration:none;}
         #seb a:hover {color:#397cd8;}
@@ -709,7 +708,8 @@ footer, header, hgroup, menu, nav, section {
         #guillaume, #renato {float:left;text-align:right;}
         #franck {float:right;text-align:left;}
         .avatar {height:50px;width:26px;}
-        #guillaume .avatar, #renato .avatar {float:right;background-position:-708px -202px;margin-left:40px;}
+        #guillaume .avatar {float:right;background-position:-708px -202px;margin-left:40px;}
+        #renato .avatar {float:right;background-position:-708px -462px;margin-left:40px;}
         #franck .avatar {float:left;background-position:-734px -202px;margin-right:40px;}
         #seb {margin:105px auto 0 auto;width:52%;color:#373737;font-size:16px;}
         #seb a {color:#373737;text-decoration:none;}
@@ -869,7 +869,8 @@ footer, header, hgroup, menu, nav, section {
         #guillaume, #renato {float:left;text-align:right;}
         #franck {float:right;text-align:left;}
         .avatar {height:50px;width:26px;}
-        #guillaume .avatar, #renato .avatar {float:right;background-position:-708px -202px;margin-left:40px;}
+        #guillaume .avatar {float:right;background-position:-708px -202px;margin-left:40px;}
+        #renato .avatar {float:right;background-position:-708px -462px;margin-left:40px;}
         #franck .avatar {float:left;background-position:-734px -202px;margin-right:40px;}
         #seb {margin:105px auto 0 auto;width:52%;color:#373737;font-size:16px;}
         #seb a {color:#373737;text-decoration:none;}
@@ -1028,7 +1029,8 @@ footer, header, hgroup, menu, nav, section {
         #guillaume, #renato {float:left;text-align:right;}
         #franck {float:right;text-align:left;}
         .avatar {height:25px;width:13px;}
-        #guillaume .avatar, #renato .avatar {float:right;background-position:-354px -101px;margin-left:20px;}
+        #guillaume .avatar, {float:right;background-position:-354px -101px;margin-left:20px;}
+        #renato .avatar {float:right;background-position:-354px -231px;margin-left:20px;}
         #franck .avatar {float:left;background-position:-367px -101px;margin-right:20px;}
         #seb {margin:45px auto 0 auto;width:64%;color:#373737;font-size:10px;}
         #seb a {color:#373737;text-decoration:none;}
