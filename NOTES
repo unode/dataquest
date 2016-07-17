@@ -7,7 +7,7 @@ Weapon has the following entries:
     MORNINGSTAR = PASTEUR (Pasteur pipette)
     BLUESWORD   = MICROPIPETTE
     REDSWORD    = ROBOTICARM
-    GOLDENSWORD = PHDSTUDENTARM
+    GOLDENSWORD = Diploma
 
 Armor:
     CLOTHARMOR   = T-SHIRT
