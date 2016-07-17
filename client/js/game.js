@@ -220,7 +220,7 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 EYE_COLLECTOR: {
                     id: 10,
                     name: "Peer Review",
-                    desc: "Sample 10 peeking eyes",
+                    desc: "Sample 10 eyes",
                     isCompleted: function() {
                         return self.storage.getEyeCount() >= 10;
                     }
@@ -1339,20 +1339,8 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 self.client.onPlayerKillMob(function(kind) {
                     var mobName = Types.getMobName(kind);
 
-                    if(mobName === 'skeleton2') {
-                        mobName = 'greater skeleton';
-                    }
-
-                    if(mobName === 'eye') {
-                        mobName = 'peeking eye';
-                    }
-
-                    if(mobName === 'deathknight') {
-                        mobName = 'death knight';
-                    }
-
-                    if(mobName === 'boss') {
-                        self.showNotification("You sampled the skeleton king");
+                    if(mobName === 'committee') {
+                        self.showNotification("You defended your thesis successfully!");
                     } else {
                         if(_.include(['a', 'e', 'i', 'o', 'u'], mobName[0])) {
                             self.showNotification("You sampled an " + mobName);
@@ -1364,7 +1352,8 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                     self.storage.incrementTotalKills();
                     self.tryUnlockingAchievement("HUNTER");
 
-                    if(kind === Types.Entities.RAT) {
+                    if(kind === Types.Entities.RAT || kind === Types.Entities.SKELETON) {
+                        // NOTE: Sorry Skeleton was replaced by a rat, and RAT is actually a mouse
                         self.storage.incrementRatCount();
                         self.tryUnlockingAchievement("ANGRY_RATS");
                     }

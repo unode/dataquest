@@ -34,15 +34,15 @@ AGENT = MATT (Do not try to bend the oral-gut axis. There is no oral-gut axis.)
 
 
 ENEMIES:
-  GOBLIN      > rat
+  GOBLIN      > bee
   RAT         > mouse
   CRAB        > keep
   BAT         > keep
-  SKELETON    > chicken
-  SKELETON2   > dog
-  OGRE        > bear
+  SKELETON    > rat
+  SKELETON2   > squirel
+  OGRE        > scorpion
   SNAKE       > keep
-  SPECTRE     > cat
+  SPECTRE     > ?? cat
   DEATHKNIGHT > HUMAN
   WIZARD      > (not a mob)
   BOSS        > DEAN?
