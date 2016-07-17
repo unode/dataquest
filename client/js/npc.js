@@ -76,7 +76,7 @@ define(['character'], function(Character) {
             "nyan nyan nyan yan nyan",
             "nyan nyan yan nyan nyan yan nyan",
             "nyan yan nyan nyan yan nyan",
-            'nyan nyan nyan <a target="_blank" href="http://link-to-replace-nyan-cat">nyan yan</a> nyan nyan'
+            'nyan nyan nyan <a target="_blank" href="http://ralves.embl.de/dataquest/img/common/nyan_upsilon.png">nyan yan</a> nyan nyan'
         ],
 
         "forestnpc": [
