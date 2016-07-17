@@ -3,10 +3,6 @@
 	"width": 48,
 	"height": 48,
 	"animations": {
-		"death": {
-			"length": 4,
-			"row": 0
-		},
 		"atk_right": {
 			"length": 6,
 			"row": 1
