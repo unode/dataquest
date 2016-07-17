@@ -15,12 +15,12 @@ define(['character'], function(Character) {
             "Like a boss",
             "I talk to people",
             "Like a boss",
-            "I sit in the office",
+            "I work in the office",
             "Like a boss",
             "I wear sandals with socks",
             "Like a boss",
-            "Now go do something useful",
-            "Like a boss"
+            "Now move it, it's UT time",
+            "Where I kill you like a boss"
         ],
 
         "villagegirl": [
@@ -39,14 +39,14 @@ define(['character'], function(Character) {
             "The samples are crap, now what to do?",
             "Bad data, no paper, I have no clue.",
             "Maybe machine learning, could interest you...",
-            "for fame and glory, enterotypes too."
+            'for fame and glory. <a target="_blank" href="https://dx.doi.org/10.1126/science.aad8852">FMT</a> too.'
         ],
 
         "agent": [
-            "Do not try to bend enterotypes dimensions",
+            "Do not try to bend enterotypes coordinates",
             "That's impossible",
             "Instead, only try to realize the truth...",
-            "There are no enterotypes."
+            'There are no <a target="_blank" href="http://enterotypes.org/">enterotypes</a>.'
         ],
 
         "rick": [
@@ -64,9 +64,9 @@ define(['character'], function(Character) {
 
         "scientist": [
             "Greetings.",
-            "I am the inventor of these two potions.",
-            "The red one will replenish your health points...",
-            "The orange one will turn you into a firefox and make you invincible...",
+            "I am the inventor of these two beverages.",
+            "The dark one will boost your productivity and revitalize you...",
+            "The bubbly one will make you think you are invincible...",
             "But it only lasts for a short while.",
             "So make good use of it!",
             "Now if you'll excuse me, I need to get back to my experiments..."
@@ -94,8 +94,9 @@ define(['character'], function(Character) {
             "Wisdom is everything, so I'll share a few guidelines with you.",
             "You are free to go wherever you like in this world",
             "but beware of the many challenges that await you.",
-            "You can find many kinds of labware while sampling creatures.",
-            "The tougher the creature, the higher the potential.",
+            "You can find many kinds of labware left around by other scientists",
+            "and as upgrades as part of sampling process requirements.",
+            "While sampling, the tougher the creature, the higher the potential.",
             "You can also unlock achievements by travelling and networking.",
             "Click on the small cup icon to see a list of all the achievements.",
             "Please stay a while and enjoy the many surprises of DataQuest",
@@ -104,35 +105,50 @@ define(['character'], function(Character) {
 
         "sorcerer": [
             "Ah... I had foreseen you would come to see me.",
-            "Well? How do you like my new staff?",
-            "Pretty cool, eh?",
-            "Where did I get it, you ask?",
-            "I understand. It's easy to get envious.",
-            "I actually crafted it myself, using my mad wizard skills.",
-            "But let me tell you one thing...",
-            "There are lots of labware in this game.",
-            "Some more powerful than others.",
-            "In order to find it, exploration is key.",
-            "Good luck."
+            "I am the lab technician also known as mad lab wizard",
+            "... that got all the data on that last paper.",
+            "*ahem* ... I mean I know all the protocols in the lab",
+            "back and forth ... for doing them so many times!",
+            "Now I'm just here taking some sun while my gels run.",
+            "What is that? You need some tips?",
+            "I understand. I'm the know it all right.",
+            "So here, there are lots of labware left around.",
+            "You can explore and collect them.",
+            "There's also lots of creatures to sample.",
+            "So make sure to poke some",
+            "and remember",
+            "All your protocols are belong to me.",
+            "Now go out there and get me some samples!"
         ],
 
         "octocat": [
-            "Welcome to BrowserQuest!",
+            "Welcome to DataQuest!",
             "Want to see the source code?",
-            'Check out <a target="_blank" href="http://github.com/nenuadrian/BrowserQuest">the repository on GitHub</a>'
+            'Check out <a target="_blank" href="https://git.embl.de/ralves/dataquest">the repository on Git@EMBL</a>'
         ],
 
         "coder": [
-            "Hi! Do you know that you can also play DataQuest on your tablet or mobile?",
-            "That's the beauty of HTML5!",
-            "Give it a try..."
+            "Hi there!",
+            "Am I using a Mac you ask?",
+            "Why yes I am, isn't that what all scientists use?",
+            "I don't know why myself...",
+            "I guess it's shiny, looks nice and is expensive!",
+            "For sure these are enough reasons",
+            'Oh and <a target="_blank" href="http://papersapp.com">Papers</a> and <a target="_blank" href="http://www.sonnysoftware.com">Bookends</a>',
+            "I heard they are really good!",
+            "And want to know something cool?",
+            "Try playing DataQuest on your mobile phone.",
+            "Go on, give it a try..."
         ],
 
         "beachnpc": [
             "Don't mind me, I'm just here on vacation.",
             "I have to say...",
-            "Hawaian beaches are the best.",
-            "Have you seen the classification of these SpecI'es?"
+            "The ocean is really impressive.",
+            "So vast and underexplored...",
+            "You don't believe me?",
+            'Then check this <a target="_blank" href="http://science.sciencemag.org/content/348/6237">special issue on TARA OCEANS</a>',
+            "It's impressive right?"
         ],
 
         "desertnpc": [
