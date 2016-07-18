@@ -1182,7 +1182,10 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                                         }
 
                                         entity.isDying = true;
-                                        entity.setSprite(self.sprites[entity instanceof Mobs.Rat ? "rat" : "death"]);
+                                        entity.setSprite(self.sprites["death"]);
+                                        // Commented this because we are no longer using a rat specific animation for death
+                                        // The animation was too bloody/gory
+                                        //entity.setSprite(self.sprites[entity instanceof Mobs.Rat ? "rat" : "death"]);
                                         entity.animate("death", 120, 1, function() {
                                             log.info(entity.id + " was removed");
 
