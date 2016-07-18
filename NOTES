@@ -39,7 +39,7 @@ ENEMIES:
   CRAB        > keep
   BAT         > keep
   SKELETON    > rat
-  SKELETON2   > squirel
+  SKELETON2   > squirrel
   OGRE        > scorpion
   SNAKE       > keep
   SPECTRE     > ?? cat
@@ -49,11 +49,15 @@ ENEMIES:
 
 
 To remove:
-  OCTOCAT
 
 To replace:
 
-TODO: link-to-replace-nyan-cat (url pointing to the upsilon nyan)
+TODO: 
+      squirrel sprites and replace with skeleton2
+      scorpion sprites and replace with ogre
+      spectre??
+      human, replace deathknight with something like "scientist" (but this ones needs to be animated.
+
       Question on "Do you really wish to Borkxit?" when http://stackoverflow.com/a/1632004
 
       Twitter link currently points to browserquest.mozilla.org
