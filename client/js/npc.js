@@ -24,8 +24,8 @@ define(['character'], function(Character) {
         ],
 
         "villagegirl": [
-            "Hi there, adventurer!",
-            "How do you like this game?",
+            "Hi there, scientist!",
+            "How do you like this researching endeavour?",
             "It's all happening in a single web page! Isn't it crazy?",
             "It's all made possible thanks to WebSockets.",
             "I don't know much about it, after all I'm just a program.",
