@@ -42,7 +42,7 @@ ENEMIES:
   SKELETON2   > squirrel
   OGRE        > scorpion
   SNAKE       > keep
-  SPECTRE     > ?? cat
+  SPECTRE     > spider
   DEATHKNIGHT > HUMAN
   WIZARD      > (not a mob)
   BOSS        > DEAN?
@@ -52,7 +52,6 @@ To remove:
 
 TODO: 
       squirrel sprites and replace with skeleton2
-      spectre??
       human, replace deathknight with something like "scientist" (but this ones needs to be animated.
       DEAN!! -> need to replace the boss
 
