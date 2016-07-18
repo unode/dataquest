@@ -4,42 +4,40 @@
 	"height": 48,
 	"animations": {
 		"atk_right": {
-			"length": 3,
-			"row": 0
+			"length": 6,
+			"row": 1
 		},
 		"walk_right": {
-			"length": 4,
-			"row": 1
+			"length": 3,
+			"row": 2
 		},
 		"idle_right": {
 			"length": 2,
-			"row": 2
-		},
-		"atk_up": {
-			"length": 3,
 			"row": 3
 		},
-		"walk_up": {
+		"atk_up": {
 			"length": 4,
 			"row": 4
 		},
-		"idle_up": {
-			"length": 3,
+		"walk_up": {
+			"length": 4,
 			"row": 5
 		},
-		"atk_down": {
-			"length": 3,
+		"idle_up": {
+			"length": 4,
 			"row": 6
 		},
-		"walk_down": {
+		"atk_down": {
 			"length": 4,
 			"row": 7
 		},
-		"idle_down": {
-			"length": 3,
+		"walk_down": {
+			"length": 4,
 			"row": 8
+		},
+		"idle_down": {
+			"length": 4,
+			"row": 9
 		}
-	},
-	"offset_x": -16,
-	"offset_y": -20
+	}
 }
