@@ -1,4 +1,4 @@
-BrowserQuest [updated & with Socket.IO]
+DataQuest derived from BrowserQuest [updated & modified to use Socket.IO]
 ============
 
 ![alt tag](https://raw.github.com/nenuadrian/BrowserQuest/master/screens/1.png)
@@ -16,9 +16,6 @@ Changes
 TODO
 ============
   * Quest system and more awesome features
- 
-
-
 
 
 This is my take on Mozilla's amazing multiplayer open source game.
@@ -58,12 +55,11 @@ Also read the original README files you'll find inside the Client and Server fol
 
 Original README
 ============
-BrowserQuest is a HTML5/JavaScript multiplayer game experiment.
+DataQuest is a derivation of BrowserQuest an HTML5/JavaScript multiplayer game experiment.
 
 
 Documentation
 -------------
-
 Documentation is located in client and server directories.
 
 
@@ -71,6 +67,7 @@ License
 -------
 
 Code is licensed under MPL 2.0. Content is licensed under CC-BY-SA 3.0.
+Some sprites used for mob characters are derived of The Mana World sprites, originally available under GPLv2
 See the LICENSE file for details.
 
 
