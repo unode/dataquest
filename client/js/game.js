@@ -1343,7 +1343,7 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                     var mobName = Types.getMobName(kind);
 
                     if(mobName === 'committee') {
-                        self.showNotification("You defended your thesis successfully!");
+                        self.showNotification("You have faced the thesis committee!");
                     } else {
                         if(_.include(['a', 'e', 'i', 'o', 'u'], mobName[0])) {
                             self.showNotification("You sampled an " + mobName);
