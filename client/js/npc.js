@@ -26,10 +26,8 @@ define(['character'], function(Character) {
         "villagegirl": [
             "Hi there, scientist!",
             "How do you like this researching endeavour?",
-            "It's all happening in a single web page! Isn't it crazy?",
-            "It's all made possible thanks to WebSockets.",
-            "I don't know much about it, after all I'm just a program.",
-            'Why don&#x27;t you read this <a target="_blank" href="http://hacks.mozilla.org/2012/03/browserquest/">blog post</a> and learn all about it?'
+            "I think I saw an two odd looking cats with moustaches",
+            'A <a target="_blank" href="http://mocat.embl.de/">MoCat2</a> perhaps?'
         ],
 
         "villager": [
@@ -69,14 +67,16 @@ define(['character'], function(Character) {
             "The bubbly one will make you think you are invincible...",
             "But it only lasts for a short while.",
             "So make good use of it!",
+            "And while you are having fun,",
+            'why not considering <a target="_blank" href="http://my.microbes.eu/">a small contribution to science</a>.',
             "Now if you'll excuse me, I need to get back to my experiments..."
         ],
 
         "nyan": [
             "nyan nyan nyan yan nyan",
-            "nyan nyan yan nyan nyan yan nyan",
-            "nyan yan nyan nyan yan nyan",
-            'nyan nyan nyan <a target="_blank" href="http://ralves.embl.de/dataquest/img/common/nyan_upsilon.png">nyan yan</a> nyan nyan'
+            "nyan nyan yan nyan nyan nyan",
+            'nyan nyan <a target="_blank" href="http://ralves.embl.de/dataquest/img/common/nyan_upsilon.png">nyan nyan yan</a> nyan nyan',
+            "nyan nyan nyan nyan yan nyan"
         ],
 
         "forestnpc": [
@@ -129,45 +129,44 @@ define(['character'], function(Character) {
 
         "coder1": [
             "Hi there!",
-            "Am I using a Mac you ask?",
-            "Why yes I am, isn't that what all scientists use?",
-            "I don't know why myself...",
-            "I guess it's shiny, looks nice and is expensive!",
-            "For sure these are enough reasons",
-            'Oh and <a target="_blank" href="http://papersapp.com">Papers</a> and <a target="_blank" href="http://www.sonnysoftware.com">Bookends</a>',
-            "I heard they are really good!",
-            "And want to know something cool?",
-            "Try playing DataQuest on your mobile phone.",
-            "Go on, give it a try..."
+            "Apologies for the ruckus",
+            "We are currently debating about trees",
+            'All I&#x27;m saying is how awesome the <a target="_blank" href="http://etetoolkit.org/">ETE toolkit</a> is',
+            "But the other guy doesn't get it!",
+            "He's going on about some Apple product",
+            "that never got released",
+            "and was supposed to be the best for highway tolls",
+            "I really don't get what he's talking about"
         ],
 
         "coder2": [
-            "Hi there!",
-            "Sorry aAm I using a Mac you ask?",
-            "Am I using a Mac you ask?",
-            "Why yes I am, isn't that what all scientists use?",
+            "Hello fellow scientist!",
+            "Sorry I am in the middle of an argument here!",
+            "... quite literally.",
+            "What is that? Am I using a Mac you ask?",
+            "Indeed I am! Isn't this what all scientists use?",
             "I don't know why myself...",
             "I guess it's shiny, looks nice and is expensive!",
             "For sure these are enough reasons",
-            'Oh and <a target="_blank" href="http://papersapp.com">Papers</a> and <a target="_blank" href="http://www.sonnysoftware.com">Bookends</a>',
+            'Oh! and <a target="_blank" href="http://papersapp.com">Papers</a> and <a target="_blank" href="http://www.sonnysoftware.com">Bookends</a>',
             "I heard they are really good!",
-            "And want to know something cool?",
-            "Try playing DataQuest on your mobile phone.",
-            "Go on, give it a try..."
+            "You don't believe me?",
+            "We'll then I'll leave you with some food for thought:",
+            "If Samsung and Apple merged",
+            "What would be the name of the new company?",
+            "Sample",
+            "Go get some!"
         ],
 
         "coder3": [
-            "Hi there!",
-            "Am I using a Mac you ask?",
-            "Why yes I am, isn't that what all scientists use?",
-            "I don't know why myself...",
-            "I guess it's shiny, looks nice and is expensive!",
-            "For sure these are enough reasons",
-            'Oh and <a target="_blank" href="http://papersapp.com">Papers</a> and <a target="_blank" href="http://www.sonnysoftware.com">Bookends</a>',
-            "I heard they are really good!",
-            "And want to know something cool?",
-            "Try playing DataQuest on your mobile phone.",
-            "Go on, give it a try..."
+            "How are you doing?",
+            "Sorry about the noise.",
+            "We are currently in a vivid discussion about trees",
+            'I think the <a target="_blank" href="http://itol.embl.de/">interactive Tree of Life</a> is the best',
+            "But that guy over there keeps talking about",
+            "the *greatest* 34+ year old movie about aliens phoning home",
+            "and also something to do with snakes...",
+            "I really don't get what he's talking about"
         ],
 
         "beachnpc": [
