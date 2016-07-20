@@ -109,7 +109,7 @@ var kinds = {
     skeleton: [Types.Entities.SKELETON , "mob", "rat"],
     goblin: [Types.Entities.GOBLIN, "mob", "bee"],
     ogre: [Types.Entities.OGRE, "mob", "scorpion"],
-    spectre: [Types.Entities.SPECTRE, "mob", "spectre"],
+    spectre: [Types.Entities.SPECTRE, "mob", "spider"],
     deathknight: [Types.Entities.DEATHKNIGHT, "mob", "human"],
     crab: [Types.Entities.CRAB, "mob", "crab"],
     snake: [Types.Entities.SNAKE, "mob", "snake"],
