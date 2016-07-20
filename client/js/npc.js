@@ -27,7 +27,8 @@ define(['character'], function(Character) {
             "Hi there, scientist!",
             "How do you like this researching endeavour?",
             "I think I saw an two odd looking cats with moustaches",
-            'A <a target="_blank" href="http://mocat.embl.de/">MoCat2</a> perhaps?'
+            '<a target="_blank" href="http://mocat.embl.de/">MoCat2</a> perhaps?',
+            "*giggles*"
         ],
 
         "villager": [
