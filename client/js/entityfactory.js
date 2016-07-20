@@ -160,8 +160,16 @@ define(['mobs', 'items', 'npcs', 'warrior', 'chest'], function(Mobs, Items, NPCs
         return new NPCs.Villager(id);
     };
 
-    EntityFactory.builders[Types.Entities.CODER] = function(id) {
-        return new NPCs.Coder(id);
+    EntityFactory.builders[Types.Entities.CODER1] = function(id) {
+        return new NPCs.Coder1(id);
+    };
+
+    EntityFactory.builders[Types.Entities.CODER2] = function(id) {
+        return new NPCs.Coder2(id);
+    };
+
+    EntityFactory.builders[Types.Entities.CODER3] = function(id) {
+        return new NPCs.Coder3(id);
     };
 
     EntityFactory.builders[Types.Entities.AGENT] = function(id) {

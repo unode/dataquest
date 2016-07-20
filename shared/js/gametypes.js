@@ -80,7 +80,9 @@ Types = {
         FORESTNPC: 52,
         DESERTNPC: 53,
         LAVANPC: 54,
-        CODER: 55,
+        CODER1: 55,
+        CODER2: 56,
+        CODER3: 57,
         
         // Weapons
         SWORD1: 60,
@@ -142,7 +144,9 @@ var kinds = {
     guard: [Types.Entities.GUARD, "npc", "guard"],
     villagegirl: [Types.Entities.VILLAGEGIRL, "npc", "villagegirl"],
     villager: [Types.Entities.VILLAGER, "npc", "villager"],
-    coder: [Types.Entities.CODER, "npc", "coder"],
+    coder1: [Types.Entities.CODER1, "npc", "coder"],
+    coder2: [Types.Entities.CODER2, "npc", "coder"],
+    coder3: [Types.Entities.CODER3, "npc", "coder"],
     scientist: [Types.Entities.SCIENTIST, "npc", "scientist"],
     priest: [Types.Entities.PRIEST, "npc", "priest"],
     king: [Types.Entities.KING, "npc", "king"],

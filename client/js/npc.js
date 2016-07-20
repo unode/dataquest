@@ -127,7 +127,36 @@ define(['character'], function(Character) {
             'Check out <a target="_blank" href="https://git.embl.de/ralves/dataquest">the repository on Git@EMBL</a>'
         ],
 
-        "coder": [
+        "coder1": [
+            "Hi there!",
+            "Am I using a Mac you ask?",
+            "Why yes I am, isn't that what all scientists use?",
+            "I don't know why myself...",
+            "I guess it's shiny, looks nice and is expensive!",
+            "For sure these are enough reasons",
+            'Oh and <a target="_blank" href="http://papersapp.com">Papers</a> and <a target="_blank" href="http://www.sonnysoftware.com">Bookends</a>',
+            "I heard they are really good!",
+            "And want to know something cool?",
+            "Try playing DataQuest on your mobile phone.",
+            "Go on, give it a try..."
+        ],
+
+        "coder2": [
+            "Hi there!",
+            "Sorry aAm I using a Mac you ask?",
+            "Am I using a Mac you ask?",
+            "Why yes I am, isn't that what all scientists use?",
+            "I don't know why myself...",
+            "I guess it's shiny, looks nice and is expensive!",
+            "For sure these are enough reasons",
+            'Oh and <a target="_blank" href="http://papersapp.com">Papers</a> and <a target="_blank" href="http://www.sonnysoftware.com">Bookends</a>',
+            "I heard they are really good!",
+            "And want to know something cool?",
+            "Try playing DataQuest on your mobile phone.",
+            "Go on, give it a try..."
+        ],
+
+        "coder3": [
             "Hi there!",
             "Am I using a Mac you ask?",
             "Why yes I am, isn't that what all scientists use?",

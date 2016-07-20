@@ -39,9 +39,21 @@ define(['npc'], function(Npc) {
             }
         }),
 
-        Coder: Npc.extend({
+        Coder1: Npc.extend({
             init: function(id) {
-                this._super(id, Types.Entities.CODER, 1);
+                this._super(id, Types.Entities.CODER1, 1);
+            }
+        }),
+
+        Coder2: Npc.extend({
+            init: function(id) {
+                this._super(id, Types.Entities.CODER2, 1);
+            }
+        }),
+
+        Coder3: Npc.extend({
+            init: function(id) {
+                this._super(id, Types.Entities.CODER3, 1);
             }
         }),
 
