@@ -319,12 +319,15 @@ define(['jquery', 'app'], function($, App) {
                 var key = e.which,
                     chat_el = $('#chatinput');
 
+                // Enter/Return key
                 if(key === 13) {
                     if(chat_el.val().replace(/\s/g, '').length) {
                         if(game.player) {
                             game.say(chat_el.val());
                         }
                         app.hideChat();
+                        // Clear the chat box after sending
+                        chat_el.val('');
                         $('#foreground').focus();
                         return false;
                     } else {
@@ -334,6 +337,7 @@ define(['jquery', 'app'], function($, App) {
                     chat_el.val("");
                 }
 
+                // Escape key
                 if(key === 27) {
                     app.hideChat();
                     return false;
