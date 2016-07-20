@@ -112,14 +112,14 @@ define(['character'], function(Character) {
             "back and forth ... for doing them so many times!",
             "Now I'm just here taking some sun while my gels run.",
             "What is that? You need some tips?",
-            "I understand. I'm the know it all right.",
+            "I understand. I am the know it all, afterall.",
             "So here, there are lots of labware left around.",
             "You can explore and collect them.",
             "There's also lots of creatures to sample.",
             "So make sure to poke some",
             "and remember",
             "All your protocols are belong to me.",
-            "Now go out there and get me some samples!"
+            "Now go out there and get some samples!"
         ],
 
         "octocat": [
