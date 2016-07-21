@@ -26,7 +26,7 @@ define(['character'], function(Character) {
         "villagegirl": [
             "Hi there, scientist!",
             "How do you like this researching endeavour?",
-            "I think I saw an two odd looking cats with moustaches",
+            "I think I saw two odd looking cats with moustaches",
             '<a target="_blank" href="http://mocat.embl.de/">MoCat2</a> perhaps?',
             "*giggles*"
         ],
@@ -95,11 +95,14 @@ define(['character'], function(Character) {
             "Wisdom is everything, so I'll share a few guidelines with you.",
             "You are free to go wherever you like in this world",
             "but beware of the many challenges that await you.",
-            "You can find many kinds of labware left around by other scientists",
+            "When interacting with other people, pay attention to gold words",
+            "these are actually links with useful and/or fun information.",
+            "You can also find many kinds of labware left around by other scientists",
             "and as upgrades as part of sampling process requirements.",
             "While sampling, the tougher the creature, the higher the potential.",
-            "You can also unlock achievements by travelling and networking.",
-            "Click on the small cup icon to see a list of all the achievements.",
+            "Finally you can unlock achievements by travelling and networking.",
+            "Click on the small cup icon on the bottom right corner",
+            "to see a list of all the achievements.",
             "Please stay a while and enjoy the many surprises of DataQuest",
             "Safe journey, young scientist."
         ],
