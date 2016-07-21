@@ -1629,7 +1629,9 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
          */
         forEachEntity: function(callback) {
             _.each(this.entities, function(entity) {
-                callback(entity);
+                if (typeof entity !== 'undefined') {
+                    callback(entity);
+                }
             });
         },
 
