@@ -23,6 +23,7 @@ define(function() {
                     unlocked: [],
                     ratCount: 0,
                     eyeCount: 0,
+                    flaskCount: 0,
                     totalKills: 0,
                     totalDmg: 0,
                     totalRevives: 0
@@ -108,9 +109,22 @@ define(function() {
             return this.data.achievements.ratCount;
         },
 
+        // Overdose
+        getFlaskCount: function() {
+            return this.data.achievements.flaskCount;
+        },
+
         incrementRatCount: function() {
             if(this.data.achievements.ratCount < 10) {
                 this.data.achievements.ratCount++;
+                this.save();
+            }
+        },
+
+        // Potions drank
+        incrementFlaskCount: function() {
+            if(this.data.achievements.flaskCount < 20) {
+                this.data.achievements.flaskCount++;
                 this.save();
             }
         },

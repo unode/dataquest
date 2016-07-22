@@ -286,6 +286,15 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                     name: "Clustered",
                     desc: "Server usage 101",
                     hidden: true
+                },
+                OVERDOSE: {
+                    id: 21,
+                    name: "Overdose",
+                    desc: "Running on caffeine",
+                    hidden: true,
+                    isCompleted: function() {
+                        return self.storage.getFlaskCount() >= 20;
+                    }
                 }
             };
 
@@ -918,6 +927,11 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
 
                             if(item.kind === Types.Entities.CAKE) {
                                 self.tryUnlockingAchievement("FOR_SCIENCE");
+                            }
+
+                            if(item.kind === Types.Entities.FLASK) {
+                                self.storage.incrementFlaskCount();
+                                self.tryUnlockingAchievement("OVERDOSE");
                             }
 
                             if(item.kind === Types.Entities.FIREPOTION) {
