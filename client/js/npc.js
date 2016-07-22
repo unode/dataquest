@@ -128,7 +128,7 @@ define(['character'], function(Character) {
         "octocat": [
             "Welcome to DataQuest!",
             "Want to see how it was made?",
-            'Check out <a target="_blank" href="https://git.embl.de/ralves/dataquest">this repository</a> in a few days'
+            'Check out <a target="_blank" href="https://git.embl.de/ralves/dataquest">this repository</a>'
         ],
 
         "coder1": [
