@@ -1,7 +1,7 @@
 DataQuest derived from BrowserQuest [updated & modified to use Socket.IO]
 ============
 
-![alt tag](https://raw.github.com/nenuadrian/BrowserQuest/master/screens/1.png)
+![alt tag](https://git.embl.de/ralves/dataquest/raw/master/screens/1.png)
 
 Changes
 ============
@@ -22,13 +22,13 @@ This is my take on Mozilla's amazing multiplayer open source game.
 
 I've yet to find any other game that's so well done from graphics, implementation and features point of view (did I mention open source, multiplayer and browser based?).
 
-![alt tag](https://raw.github.com/nenuadrian/BrowserQuest/master/screens/2.png)
+![alt tag](https://git.embl.de/ralves/dataquest/raw/master/screens/2.png)
 
 I've wanted to use the game for a while and found many of its dependencies to be deprecated and even obsolete.
 
 I've just taken the time to understand the code and thank you guys for making it so well structured.
 
-![alt tag](https://raw.github.com/nenuadrian/BrowserQuest/master/screens/3.png)
+![alt tag](https://git.embl.de/ralves/dataquest/raw/master/screens/3.png)
 
 This now works on the latest Socket.IO. Everything should work just as in the original developers intended.
 
