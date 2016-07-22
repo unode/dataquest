@@ -16,21 +16,8 @@ Armor:
     PLATEARMOR   = GOGGLES
     REDARMOR     = APRON
     GOLDENARMOR  = Graduation cap
-    //GOLDENARMOR  = COVERALL
 
     FIREFOX      = BEER power!
-
-
-RICK (for the Rickroll achievement) = ANDRES (the IT living in the labyrinth of cluster nodes)
-GUARD = TIMESHEET master
-KING = PEER
-PRIEST = ??
-BEACHNPC = SHINI (
-BEACHNPC2 = MENDE (Hawai is all about SpecI(link)es classification)
-CODER = RENATO
-VILLAGEGIRL = ECE
-VILLAGER = 
-AGENT = MATT (Do not try to bend the oral-gut axis. There is no oral-gut axis.)
 
 
 ENEMIES:
@@ -48,11 +35,11 @@ ENEMIES:
   BOSS        > DEAN?
 
 
-To remove:
-
-TODO: 
-      human, replace deathknight with something like "scientist" (but this ones needs to be animated.
-
-      Question on "Do you really wish to Borkxit?" when http://stackoverflow.com/a/1632004
-
-      Twitter link currently points to browserquest.mozilla.org
+Future changes (TODO):
+    * Twitter link currently points to browserquest.mozilla.org
+    * Replace code references to match the objects, mobs, items and achievements added in dataquest
+    * Add extra characters representing different people in-game.
+        * Make characters obvious with prefixed names when they speak "Name:".
+    * Additional game mechanics:
+        * Quest system: Collect objects or sample mobs and talk to characters for gifts.
+        * Achievements with more focus on teamplay (jointly kill a mob)
