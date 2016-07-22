@@ -13,23 +13,8 @@ If you wish to give the game a quick try and have docker installed locally you c
 and point your browser to [http://127.0.0.1:9000](http://127.0.0.1:9000)
 
 
-Changes
-============
-  * Updated backend and frontend to use Socket.IO server and Client
-  * Main changes were made to ws.js and gameclient.js.
-  * Updated dependencies such as requirejs and jQuery to their latest versions
-  * Fixed build script
-  * Created a mini-dispatcher on the server side that provides the IP and Port in the configs as the ones for the game server.
-  * Added a demo to http://browserquest.codevolution.com
-  * A few minor edits to server side handling
-
-TODO
-============
-  * Quest system and more awesome features
-
-
-
-
+ABOUT
+===========
 
 This is my take on Mozilla's amazing multiplayer open source game.
 
@@ -55,9 +40,8 @@ Run from a console:
 
 Make sure you have NodeJS installed.
 
-npm install
-
-node server/js/main.js
+    npm install
+    node server/js/main.js
 
 Then go inside the Client folder and open index.html.
 
