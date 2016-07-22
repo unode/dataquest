@@ -3,6 +3,16 @@ DataQuest derived from BrowserQuest [updated & modified to use Socket.IO]
 
 ![alt tag](https://git.embl.de/ralves/dataquest/raw/master/screens/1.png)
 
+INSTALL
+============
+
+If you wish to give the game a quick try and have docker installed locally you can:
+
+    docker run -p 8000:8000 -p 9000:9000 unode/dataquest
+
+and point your browser to [http://127.0.0.1:9000](http://127.0.0.1:9000)
+
+
 Changes
 ============
   * Updated backend and frontend to use Socket.IO server and Client
@@ -16,6 +26,9 @@ Changes
 TODO
 ============
   * Quest system and more awesome features
+
+
+
 
 
 This is my take on Mozilla's amazing multiplayer open source game.
