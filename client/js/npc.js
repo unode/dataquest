@@ -76,7 +76,7 @@ define(['character'], function(Character) {
         "nyan": [
             "nyan nyan nyan yan nyan",
             "nyan nyan yan nyan nyan nyan",
-            'nyan nyan <a target="_blank" href="http://ralves.embl.de/dataquest/img/common/nyan_upsilon.png">nyan nyan yan</a> nyan nyan',
+            'nyan nyan <a target="_blank" href="img/common/nyan_upsilon.png">nyan nyan yan</a> nyan nyan',
             "nyan nyan nyan nyan yan nyan"
         ],
 
