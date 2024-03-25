@@ -6,7 +6,7 @@
     "underscore": "1.8.3"
     , "log": "1.4.0"
     , "bison": "1.1.1"
-    , "express": "4.14.0"
+    , "express": "4.19.2"
     , "socket.io": "1.4.8"
     , "sanitizer": "0.1.2"
     , "memcache": "0.3.0"
